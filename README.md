@@ -1,5 +1,7 @@
 # Iris Classification Microservice
 
+The Iris dataset is a classic dataset in the field of machine learning and statistics. It contains 150 observations of iris flowers, each described by four features: sepal length, sepal width, petal length, and petal width. Each observation is labeled with one of three classes: Iris setosa, Iris versicolor, and Iris virginica. This dataset is widely used for classification tasks.
+
 This project implements a microservice for classifying Iris flower species based on the famous Iris dataset. The microservice uses a machine learning model built with scikit-learn and is deployed using Docker and Google Cloud Run.
 
 ## Dataset
