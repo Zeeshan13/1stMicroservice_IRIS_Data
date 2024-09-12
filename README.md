@@ -61,7 +61,7 @@ Target: The three Iris species classes: `Setosa`, `Versicolor`, and `Virginica`.
    python app.py
    ```
 4. **Access the application:**
-   Once the application is running, you can open it in your browser at http://127.0.0.1:5000. You can input the values for Sepal Length, Sepal Width, Petal Length, and Petal Width to get a prediction of the Iris species.
+   Once the application is running, you can open it in your browser. You can input the values for Sepal Length, Sepal Width, Petal Length, and Petal Width to get a prediction of the Iris species.
 
 ### Dockerization
 
@@ -96,13 +96,13 @@ This command deploys the Docker image to Google Cloud Run as a fully managed ser
 
 ### Usage
 
-Once deployed, you can access the Iris Classification Microservice through the generated Google Cloud Run URL. Input the required features (Sepal Length, Sepal Width, Petal Length, Petal Width), and the model will predict the species of the Iris flower.
+Once deployed, you can access the Iris Classification Microservice through the generated Google Cloud Run URL for me it is : https://iris-classification-service-tftq37eyta-uc.a.run.app/. Input the required features (Sepal Length, Sepal Width, Petal Length, Petal Width), and the model will predict the species of the Iris flower.
 
 ### VS Code Setup
 For local development, we used VS Code to build the model and microservice. The following steps were followed:
 
 1. Developed the machine learning model in VS Code.
-2. Tested locally using Flask on localhost (127.0.0.1:5000).
+2. Tested locally using Flask on localhost.
 3. Dockerized the project and pushed it to Google Cloud Platform for deployment.
 
 ### Technologies Used
