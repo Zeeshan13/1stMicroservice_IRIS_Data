@@ -114,7 +114,7 @@ For local development, we used VS Code to build the model and microservice. The 
 - **scikit-learn:** For model building.
 - **Docker:** For containerizing the application.
 - **Google Cloud Run:** For deploying the containerized application.
-- **VS Code:** For local development and testing.
+- **VS Code:** For local development and testing
 
 
 
